@@ -3,6 +3,8 @@ import { isAnagram } from "./validAnagram";
 import { maxSubArray } from "./maximumSubArray";
 import { productExceptSelf } from "./productExceptSelf";
 import { maxArea } from "./maxArea";
+import { twoSum } from "./twoSum";
+import { isValid } from "./validParenthesis";
 
 const nums = [2, 4, 5, 6, 7, 3, 2];
 console.log(containsDuplicate(nums));
@@ -18,3 +20,8 @@ console.log(productExceptSelf(nums));
 
 const height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 console.log(maxArea(height));
+
+console.log(twoSum(nums));
+
+const p = "()[]{}";
+console.log(isValid(p));
