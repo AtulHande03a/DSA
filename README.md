@@ -12,3 +12,8 @@ A repository where I am adding the dsa problems and algorithms I practice on a d
 - Product of array except self
 - maximum subarray
 - container with most water
+
+#Day3
+
+- two sum
+- valid parenthesis
