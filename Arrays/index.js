@@ -5,6 +5,7 @@ import { productExceptSelf } from "./productExceptSelf";
 import { maxArea } from "./maxArea";
 import { twoSum } from "./twoSum";
 import { isValid } from "./validParenthesis";
+import { mergeSortedArr } from "./mergeSortedArr";
 
 const nums = [2, 4, 5, 6, 7, 3, 2];
 console.log(containsDuplicate(nums));
@@ -25,3 +26,9 @@ console.log(twoSum(nums));
 
 const p = "()[]{}";
 console.log(isValid(p));
+
+const nums1 = [1, 2, 3, 0, 0, 0];
+const m = 3;
+const nums2 = [2, 5, 6];
+const n = 3;
+console.log(mergeSortedArr(nums1, m, nums2, n));
