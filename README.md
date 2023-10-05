@@ -17,3 +17,8 @@ A repository where I am adding the dsa problems and algorithms I practice on a d
 
 - two sum
 - valid parenthesis
+
+- #Day4
+
+- three sum
+- merge sorted arrays
